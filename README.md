@@ -35,3 +35,6 @@ This project aims to predict temperature 10 minutes into the future using time-s
 ## How to Run
 ```bash
 pip install -r requirements.txt
+
+## Author
+Nitchamon Busayaphongchai
