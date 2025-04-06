@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 2. Run the Jupyter Notebook:
 ```bash
-jupyter notebook notebooks/Temperature_Prediction.ipynb
+jupyter notebook notebooks/project3.ipynb
 ```
 
 ## Author
