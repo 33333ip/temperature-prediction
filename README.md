@@ -32,9 +32,9 @@ This project aims to predict temperature 10 minutes into the future using time-s
 
 > LSTM achieved the best performance thanks to its ability to learn sequential patterns.
 
+## Author
+Nitchamon Busayaphongchai
+
 ## How to Run
 ```bash
 pip install -r requirements.txt
-
-## Author
-Nitchamon Busayaphongchai
