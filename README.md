@@ -2,13 +2,13 @@
 
 This project aims to predict temperature 10 minutes into the future using time-series data. Several models were tested and compared, including Linear Regression, Support Vector Regression (SVR), and a Long Short-Term Memory (LSTM) neural network.
 
-Temperature data is collected every minute using a **Cucumber Board (ESP32-S2 Dev Module)** equipped with temperature sensors. The data is transmitted via **MQTT protocol** and automatically logged to **Google Sheets**. This setup simulates a real-time IoT environment and provides rich time-series data for training and evaluating machine learning models.
+Temperature data is collected every minute using a **Cucumber Board (ESP32-S2 Dev Module)** equipped with temperature sensors. The data is transmitted via **HTTP (REST)** and automatically logged to **Google Sheets**. This setup simulates a real-time IoT environment and provides rich time-series data for training and evaluating machine learning models.
 
 ## Dataset
 
 - Source: Temperature readings collected every 1 minute
 - Hardware: **Cucumber Board / ESP32-S2 Dev Module**
-- Protocol: **MQTT** to Google Sheets
+- Protocol: **HTTP** to Google Sheets
 - Fields: Timestamp, Temperature, Humidity
 
 ## Models Used
